@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8817120F1E674BA2423B459 /* Pods_jeconomizer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */; };
 		FADA76152134736C0009AB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76142134736C0009AB37 /* AppDelegate.swift */; };
 		FADA76172134736C0009AB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76162134736C0009AB37 /* ViewController.swift */; };
 		FADA761A2134736C0009AB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA76182134736C0009AB37 /* Main.storyboard */; };
 		FADA761C2134736E0009AB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA761B2134736E0009AB37 /* Assets.xcassets */; };
 		FADA761F2134736E0009AB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA761D2134736E0009AB37 /* LaunchScreen.storyboard */; };
+		FAFC01EC213478930022C5AA /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01EB213478930022C5AA /* LoginWireFrame.swift */; };
+		FAFC01EE213478AC0022C5AA /* LoginWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01ED213478AC0022C5AA /* LoginWireFrameProtocol.swift */; };
+		FAFC01F0213479D90022C5AA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01EF213479D90022C5AA /* LoginView.swift */; };
+		FAFC01F2213479EB0022C5AA /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F1213479EB0022C5AA /* LoginViewProtocol.swift */; };
+		FAFC01F421347A410022C5AA /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F321347A410022C5AA /* LoginPresenter.swift */; };
+		FAFC01F621347A530022C5AA /* LoginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F521347A530022C5AA /* LoginPresenterProtocol.swift */; };
+		FAFC01F921347ABE0022C5AA /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F821347ABE0022C5AA /* LoginInteractor.swift */; };
+		FAFC01FB21347ACE0022C5AA /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01FA21347ACE0022C5AA /* LoginInteractorProtocol.swift */; };
+		FAFC02032135C9A70022C5AA /* BottomFillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC02022135C9A70022C5AA /* BottomFillButton.swift */; };
+		FAFC020D2137180E0022C5AA /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC020C2137180E0022C5AA /* HomeWireFrame.swift */; };
+		FAFC020F2137182B0022C5AA /* HomeWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC020E2137182B0022C5AA /* HomeWireFrameProtocol.swift */; };
+		FAFC0211213719BC0022C5AA /* HomePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0210213719BC0022C5AA /* HomePresenterProtocol.swift */; };
+		FAFC0213213719DA0022C5AA /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0212213719DA0022C5AA /* HomeViewProtocol.swift */; };
+		FAFC0215213719F30022C5AA /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0214213719F30022C5AA /* HomeInteractorProtocol.swift */; };
+		FAFC021721371A5D0022C5AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021621371A5D0022C5AA /* HomeView.swift */; };
+		FAFC021921371ABE0022C5AA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021821371ABE0022C5AA /* HomePresenter.swift */; };
+		FAFC021B21371B170022C5AA /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021A21371B170022C5AA /* HomeInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jeconomizer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.release.xcconfig"; sourceTree = "<group>"; };
 		FADA76112134736C0009AB37 /* jeconomizer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jeconomizer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA76142134736C0009AB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADA76162134736C0009AB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,23 @@
 		FADA761B2134736E0009AB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADA761E2134736E0009AB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADA76202134736E0009AB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFC01EB213478930022C5AA /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
+		FAFC01ED213478AC0022C5AA /* LoginWireFrameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrameProtocol.swift; sourceTree = "<group>"; };
+		FAFC01EF213479D90022C5AA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FAFC01F1213479EB0022C5AA /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		FAFC01F321347A410022C5AA /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		FAFC01F521347A530022C5AA /* LoginPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterProtocol.swift; sourceTree = "<group>"; };
+		FAFC01F821347ABE0022C5AA /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		FAFC01FA21347ACE0022C5AA /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
+		FAFC02022135C9A70022C5AA /* BottomFillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomFillButton.swift; sourceTree = "<group>"; };
+		FAFC020C2137180E0022C5AA /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		FAFC020E2137182B0022C5AA /* HomeWireFrameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrameProtocol.swift; sourceTree = "<group>"; };
+		FAFC0210213719BC0022C5AA /* HomePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterProtocol.swift; sourceTree = "<group>"; };
+		FAFC0212213719DA0022C5AA /* HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocol.swift; sourceTree = "<group>"; };
+		FAFC0214213719F30022C5AA /* HomeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorProtocol.swift; sourceTree = "<group>"; };
+		FAFC021621371A5D0022C5AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FAFC021821371ABE0022C5AA /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FAFC021A21371B170022C5AA /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8817120F1E674BA2423B459 /* Pods_jeconomizer_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1DC12BFAD462CAD1D585C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */,
+				E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65370EB22C6A086BE76BFCA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FADA76082134736C0009AB37 = {
 			isa = PBXGroup;
 			children = (
 				FADA76132134736C0009AB37 /* jeconomizer-swift */,
 				FADA76122134736C0009AB37 /* Products */,
+				3C1DC12BFAD462CAD1D585C6 /* Pods */,
+				65370EB22C6A086BE76BFCA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +112,9 @@
 		FADA76132134736C0009AB37 /* jeconomizer-swift */ = {
 			isa = PBXGroup;
 			children = (
+				FAFC0204213717220022C5AA /* Home */,
+				FAFC02002135C4960022C5AA /* Common */,
+				FAFC01E6213476910022C5AA /* Login */,
 				FADA76142134736C0009AB37 /* AppDelegate.swift */,
 				FADA76162134736C0009AB37 /* ViewController.swift */,
 				FADA76182134736C0009AB37 /* Main.storyboard */,
@@ -64,6 +125,180 @@
 			path = "jeconomizer-swift";
 			sourceTree = "<group>";
 		};
+		FAFC01E6213476910022C5AA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01FF2135C48E0022C5AA /* Entities */,
+				FAFC01FC21347AFB0022C5AA /* DataManager */,
+				FAFC01F721347AA40022C5AA /* Interactor */,
+				FAFC01EA213476B70022C5AA /* WireFrame */,
+				FAFC01E9213476B10022C5AA /* Views */,
+				FAFC01E8213476A30022C5AA /* Protocols */,
+				FAFC01E72134769C0022C5AA /* Presenter */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FAFC01E72134769C0022C5AA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01F321347A410022C5AA /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAFC01E8213476A30022C5AA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01ED213478AC0022C5AA /* LoginWireFrameProtocol.swift */,
+				FAFC01F1213479EB0022C5AA /* LoginViewProtocol.swift */,
+				FAFC01F521347A530022C5AA /* LoginPresenterProtocol.swift */,
+				FAFC01FA21347ACE0022C5AA /* LoginInteractorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FAFC01E9213476B10022C5AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01EF213479D90022C5AA /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAFC01EA213476B70022C5AA /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01EB213478930022C5AA /* LoginWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		FAFC01F721347AA40022C5AA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01F821347ABE0022C5AA /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FAFC01FC21347AFB0022C5AA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC01FE21347B0A0022C5AA /* Remote */,
+				FAFC01FD21347B040022C5AA /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		FAFC01FD21347B040022C5AA /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FAFC01FE21347B0A0022C5AA /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		FAFC01FF2135C48E0022C5AA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FAFC02002135C4960022C5AA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC02012135C9800022C5AA /* Components */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAFC02012135C9800022C5AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC02022135C9A70022C5AA /* BottomFillButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAFC0204213717220022C5AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC020B2137177C0022C5AA /* Presenter */,
+				FAFC020A213717730022C5AA /* Protocols */,
+				FAFC02092137176B0022C5AA /* View */,
+				FAFC0208213717640022C5AA /* WireFrame */,
+				FAFC02072137175C0022C5AA /* Interactor */,
+				FAFC0206213717530022C5AA /* DataManager */,
+				FAFC02052137174C0022C5AA /* Entities */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAFC02052137174C0022C5AA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FAFC0206213717530022C5AA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		FAFC02072137175C0022C5AA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC021A21371B170022C5AA /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FAFC0208213717640022C5AA /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC020C2137180E0022C5AA /* HomeWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		FAFC02092137176B0022C5AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC021621371A5D0022C5AA /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAFC020A213717730022C5AA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC020E2137182B0022C5AA /* HomeWireFrameProtocol.swift */,
+				FAFC0210213719BC0022C5AA /* HomePresenterProtocol.swift */,
+				FAFC0212213719DA0022C5AA /* HomeViewProtocol.swift */,
+				FAFC0214213719F30022C5AA /* HomeInteractorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FAFC020B2137177C0022C5AA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC021821371ABE0022C5AA /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADA76232134736E0009AB37 /* Build configuration list for PBXNativeTarget "jeconomizer-swift" */;
 			buildPhases = (
+				4A2DA12B7C1A41001A736FAB /* [CP] Check Pods Manifest.lock */,
 				FADA760D2134736C0009AB37 /* Sources */,
 				FADA760E2134736C0009AB37 /* Frameworks */,
 				FADA760F2134736C0009AB37 /* Resources */,
+				A3D49EDE62DFB5009435097F /* [CP] Embed Pods Frameworks */,
+				1FDF42814C10585EA478985E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +368,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FDF42814C10585EA478985E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A2DA12B7C1A41001A736FAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jeconomizer-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D49EDE62DFB5009435097F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FADA760D2134736C0009AB37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFC01FB21347ACE0022C5AA /* LoginInteractorProtocol.swift in Sources */,
+				FAFC021B21371B170022C5AA /* HomeInteractor.swift in Sources */,
+				FAFC0211213719BC0022C5AA /* HomePresenterProtocol.swift in Sources */,
+				FAFC020F2137182B0022C5AA /* HomeWireFrameProtocol.swift in Sources */,
+				FAFC020D2137180E0022C5AA /* HomeWireFrame.swift in Sources */,
+				FAFC0213213719DA0022C5AA /* HomeViewProtocol.swift in Sources */,
+				FAFC021721371A5D0022C5AA /* HomeView.swift in Sources */,
+				FAFC01EE213478AC0022C5AA /* LoginWireFrameProtocol.swift in Sources */,
 				FADA76172134736C0009AB37 /* ViewController.swift in Sources */,
+				FAFC01F621347A530022C5AA /* LoginPresenterProtocol.swift in Sources */,
+				FAFC01F421347A410022C5AA /* LoginPresenter.swift in Sources */,
+				FAFC01EC213478930022C5AA /* LoginWireFrame.swift in Sources */,
+				FAFC01F921347ABE0022C5AA /* LoginInteractor.swift in Sources */,
+				FAFC02032135C9A70022C5AA /* BottomFillButton.swift in Sources */,
+				FAFC01F0213479D90022C5AA /* LoginView.swift in Sources */,
+				FAFC0215213719F30022C5AA /* HomeInteractorProtocol.swift in Sources */,
+				FAFC021921371ABE0022C5AA /* HomePresenter.swift in Sources */,
+				FAFC01F2213479EB0022C5AA /* LoginViewProtocol.swift in Sources */,
 				FADA76152134736C0009AB37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +584,7 @@
 		};
 		FADA76242134736E0009AB37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +602,7 @@
 		};
 		FADA76252134736E0009AB37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

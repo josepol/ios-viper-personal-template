@@ -8,6 +8,10 @@
 
 import UIKit
 
-class LoginInteractorProtocol: NSObject {
+class LoginInteractor: LoginInteractorInputProtocol {
+    var presenter: LoginInteractorOutputProtocol?
+}
 
+extension LoginInteractor: LoginInteractorOutputProtocol {
+    
 }

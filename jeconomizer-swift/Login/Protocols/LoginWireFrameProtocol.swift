@@ -8,6 +8,7 @@
 
 import UIKit
 
-class LoginWireFrameProtocol: NSObject {
-
+protocol LoginWireFrameProtocol: class {
+    static func createLoginModule() -> UIViewController
+    func redirectToHome(from view: LoginViewProtocol)
 }
