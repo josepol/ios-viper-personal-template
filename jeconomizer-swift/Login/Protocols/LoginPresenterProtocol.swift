@@ -15,4 +15,5 @@ protocol LoginPresenterProtocol: class {
     
     func viewDidLoad()
     func login(username: String, password: String)
+    func navigateToRegister()
 }

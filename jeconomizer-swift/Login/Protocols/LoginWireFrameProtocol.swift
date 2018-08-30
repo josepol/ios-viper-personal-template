@@ -11,4 +11,5 @@ import UIKit
 protocol LoginWireFrameProtocol: class {
     static func createLoginModule() -> UIViewController
     func redirectToHome(from view: LoginViewProtocol)
+    func navigateToRegister()
 }

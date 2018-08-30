@@ -17,10 +17,17 @@ class LoginPresenter: LoginPresenterProtocol {
     
     func login(username: String, password: String) {
         print("username is \(username) and password is \(password)")
-        wireFrame?.redirectToHome(from: view!)
+        interactor?.loginRequest()
+    }
+    
+    func navigateToRegister() {
+        wireFrame?.navigateToRegister()
     }
 }
 
 extension LoginPresenter: LoginInteractorOutputProtocol {
-    
+    func loginResponse(response: Any) {
+        print("response \(response)")
+        wireFrame?.redirectToHome(from: view!)
+    }
 }

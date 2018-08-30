@@ -30,6 +30,8 @@
 		FAFC021721371A5D0022C5AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021621371A5D0022C5AA /* HomeView.swift */; };
 		FAFC021921371ABE0022C5AA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021821371ABE0022C5AA /* HomePresenter.swift */; };
 		FAFC021B21371B170022C5AA /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021A21371B170022C5AA /* HomeInteractor.swift */; };
+		FAFC021F21386C0B0022C5AA /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021E21386C0B0022C5AA /* Endpoints.swift */; };
+		FAFC0223213872480022C5AA /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0222213872480022C5AA /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		FAFC021621371A5D0022C5AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FAFC021821371ABE0022C5AA /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		FAFC021A21371B170022C5AA /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		FAFC021E21386C0B0022C5AA /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		FAFC0222213872480022C5AA /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		FADA76132134736C0009AB37 /* jeconomizer-swift */ = {
 			isa = PBXGroup;
 			children = (
+				FAFC021C21386B9F0022C5AA /* Entities */,
 				FAFC0204213717220022C5AA /* Home */,
 				FAFC02002135C4960022C5AA /* Common */,
 				FAFC01E6213476910022C5AA /* Login */,
@@ -128,8 +133,6 @@
 		FAFC01E6213476910022C5AA /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				FAFC01FF2135C48E0022C5AA /* Entities */,
-				FAFC01FC21347AFB0022C5AA /* DataManager */,
 				FAFC01F721347AA40022C5AA /* Interactor */,
 				FAFC01EA213476B70022C5AA /* WireFrame */,
 				FAFC01E9213476B10022C5AA /* Views */,
@@ -182,39 +185,10 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		FAFC01FC21347AFB0022C5AA /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				FAFC01FE21347B0A0022C5AA /* Remote */,
-				FAFC01FD21347B040022C5AA /* Local */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		FAFC01FD21347B040022C5AA /* Local */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Local;
-			sourceTree = "<group>";
-		};
-		FAFC01FE21347B0A0022C5AA /* Remote */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Remote;
-			sourceTree = "<group>";
-		};
-		FAFC01FF2135C48E0022C5AA /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
 		FAFC02002135C4960022C5AA /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FAFC021D21386BE10022C5AA /* DataManager */,
 				FAFC02012135C9800022C5AA /* Components */,
 			);
 			path = Common;
@@ -236,24 +210,8 @@
 				FAFC02092137176B0022C5AA /* View */,
 				FAFC0208213717640022C5AA /* WireFrame */,
 				FAFC02072137175C0022C5AA /* Interactor */,
-				FAFC0206213717530022C5AA /* DataManager */,
-				FAFC02052137174C0022C5AA /* Entities */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		FAFC02052137174C0022C5AA /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		FAFC0206213717530022C5AA /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataManager;
 			sourceTree = "<group>";
 		};
 		FAFC02072137175C0022C5AA /* Interactor */ = {
@@ -297,6 +255,38 @@
 				FAFC021821371ABE0022C5AA /* HomePresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAFC021C21386B9F0022C5AA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FAFC021D21386BE10022C5AA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC02212138716D0022C5AA /* Local */,
+				FAFC0220213871600022C5AA /* Remote */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		FAFC0220213871600022C5AA /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC021E21386C0B0022C5AA /* Endpoints.swift */,
+				FAFC0222213872480022C5AA /* Protocols.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		FAFC02212138716D0022C5AA /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,9 +398,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,11 +432,13 @@
 				FAFC021721371A5D0022C5AA /* HomeView.swift in Sources */,
 				FAFC01EE213478AC0022C5AA /* LoginWireFrameProtocol.swift in Sources */,
 				FADA76172134736C0009AB37 /* ViewController.swift in Sources */,
+				FAFC0223213872480022C5AA /* Protocols.swift in Sources */,
 				FAFC01F621347A530022C5AA /* LoginPresenterProtocol.swift in Sources */,
 				FAFC01F421347A410022C5AA /* LoginPresenter.swift in Sources */,
 				FAFC01EC213478930022C5AA /* LoginWireFrame.swift in Sources */,
 				FAFC01F921347ABE0022C5AA /* LoginInteractor.swift in Sources */,
 				FAFC02032135C9A70022C5AA /* BottomFillButton.swift in Sources */,
+				FAFC021F21386C0B0022C5AA /* Endpoints.swift in Sources */,
 				FAFC01F0213479D90022C5AA /* LoginView.swift in Sources */,
 				FAFC0215213719F30022C5AA /* HomeInteractorProtocol.swift in Sources */,
 				FAFC021921371ABE0022C5AA /* HomePresenter.swift in Sources */,

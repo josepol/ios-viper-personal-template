@@ -6,5 +6,7 @@ target 'jeconomizer-swift' do
   use_frameworks!
 
   # Pods for jeconomizer-swift
-
+  pod 'Alamofire', '~> 4.5.0'
+  pod 'AlamofireObjectMapper', '~> 5.0'
+  pod 'AlamofireImage', '~> 3.3'
 end

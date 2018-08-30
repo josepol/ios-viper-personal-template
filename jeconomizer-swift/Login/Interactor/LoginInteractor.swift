@@ -10,8 +10,8 @@ import UIKit
 
 class LoginInteractor: LoginInteractorInputProtocol {
     var presenter: LoginInteractorOutputProtocol?
-}
-
-extension LoginInteractor: LoginInteractorOutputProtocol {
     
+    func loginRequest() {
+        self.presenter?.loginResponse(response: "ok")
+    }
 }

@@ -14,7 +14,7 @@ class LoginWireFrame: LoginWireFrameProtocol {
         let navController = mainStoryboard.instantiateViewController(withIdentifier: "JeconomizerNavigationController")
         if let view = navController.childViewControllers.first as? LoginView {
             let presenter: LoginPresenterProtocol & LoginInteractorOutputProtocol = LoginPresenter()
-            let interactor: LoginInteractorInputProtocol & LoginInteractorOutputProtocol = LoginInteractor()
+            let interactor: LoginInteractorInputProtocol = LoginInteractor()
             let wireframe: LoginWireFrameProtocol = LoginWireFrame()
             
             view.presenter = presenter
@@ -38,5 +38,9 @@ class LoginWireFrame: LoginWireFrameProtocol {
         if let sourceView = view as? UIViewController {
             sourceView.navigationController?.pushViewController(homeViewController, animated: true)
         }
+    }
+    
+    func navigateToRegister() {
+        
     }
 }

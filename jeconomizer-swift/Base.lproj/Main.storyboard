@@ -123,20 +123,30 @@
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pzc-tg-RI4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4x-jo-Qjy">
+                                <rect key="frame" x="0.0" y="334" width="375" height="30"/>
+                                <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="navigateToRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1IG-Tk-1ce"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8sY-8P-RD8" secondAttribute="trailing" constant="30" id="0Il-at-nUg"/>
                             <constraint firstItem="Xb0-Qy-dJa" firstAttribute="top" secondItem="8sY-8P-RD8" secondAttribute="bottom" constant="20" id="1Dc-Lp-Tsv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xb0-Qy-dJa" secondAttribute="trailing" id="DC3-a7-SdC"/>
+                            <constraint firstItem="e4x-jo-Qjy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="I8O-oy-0DR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gjD-CK-uU7" secondAttribute="trailing" constant="50" id="JkG-9G-ciL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jga-po-WHy" secondAttribute="trailing" id="QIh-51-YVz"/>
                             <constraint firstItem="gjD-CK-uU7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="QuH-Cr-JdQ"/>
                             <constraint firstItem="8sY-8P-RD8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="UeW-eQ-7nf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e4x-jo-Qjy" secondAttribute="trailing" id="Ut6-3L-ukb"/>
                             <constraint firstItem="Xb0-Qy-dJa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vi5-Rv-tkB"/>
                             <constraint firstItem="8sY-8P-RD8" firstAttribute="top" secondItem="gjD-CK-uU7" secondAttribute="bottom" constant="40" id="bXv-Vl-zSk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jga-po-WHy" secondAttribute="bottom" id="dRq-fX-nNs"/>
                             <constraint firstItem="gjD-CK-uU7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="nfu-4p-Joc"/>
+                            <constraint firstItem="e4x-jo-Qjy" firstAttribute="top" secondItem="Xb0-Qy-dJa" secondAttribute="bottom" constant="20" id="xi6-ma-2Zy"/>
                             <constraint firstItem="Jga-po-WHy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z7M-YL-uGv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

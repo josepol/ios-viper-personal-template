@@ -10,8 +10,10 @@ import UIKit
 
 protocol LoginInteractorInputProtocol: class {
     var presenter: LoginInteractorOutputProtocol? { get set }
+    
+    func loginRequest()
 }
 
 protocol LoginInteractorOutputProtocol: class {
-    
+    func loginResponse(response: Any)
 }

@@ -24,12 +24,16 @@ class LoginView: UIViewController {
         self.navigationController?.isNavigationBarHidden = true
     }
     
+    @IBAction func navigateToRegister(_ sender: Any) {
+        print("navigate")
+        presenter?.navigateToRegister()
+    }
+    
 }
 
 extension LoginView: LoginViewProtocol {
     @IBAction func login(_ sender: Any) {
         if !username.hasText || !password.hasText {
-            print("invalid")
             invalidCredentialsMessage.isHidden = false
             return
         }
