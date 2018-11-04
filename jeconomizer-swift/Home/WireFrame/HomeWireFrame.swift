@@ -22,6 +22,14 @@ class HomeWireFrame: HomeWireFrameProtocol {
             presenter.interactor = interactor
             interactor.presenter = presenter
             
+            let preferences = UserDefaults.standard
+            if preferences.object(forKey: "token") == nil {
+                print("No token")
+            } else {
+                let token = preferences.string(forKey: "token")
+                print("The token is \(String(describing: token))")
+            }
+            
             return viewController
         }
         return UIViewController()

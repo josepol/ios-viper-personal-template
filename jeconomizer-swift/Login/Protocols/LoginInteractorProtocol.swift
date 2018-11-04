@@ -11,9 +11,11 @@ import UIKit
 protocol LoginInteractorInputProtocol: class {
     var presenter: LoginInteractorOutputProtocol? { get set }
     
-    func loginRequest()
+    func loginRequest(loginData: LoginData)
+    func loginHttpRequest(loginData: LoginData)
+    func saveToken(token: String)
 }
 
 protocol LoginInteractorOutputProtocol: class {
-    func loginResponse(response: Any)
+    func loginResponse(token: Any)
 }

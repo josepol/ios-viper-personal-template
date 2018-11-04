@@ -25,7 +25,6 @@ class LoginView: UIViewController {
     }
     
     @IBAction func navigateToRegister(_ sender: Any) {
-        print("navigate")
         presenter?.navigateToRegister()
     }
     
@@ -45,7 +44,6 @@ extension LoginView: LoginViewProtocol {
     }
     
     func textChanged() {
-        print("changed")
         invalidCredentialsMessage.isHidden = true
     }
 }

@@ -12,12 +12,13 @@ class LoginPresenter: LoginPresenterProtocol {
     var wireFrame: LoginWireFrameProtocol?
     
     func viewDidLoad() {
-        print("view did load!")
     }
     
     func login(username: String, password: String) {
-        print("username is \(username) and password is \(password)")
-        interactor?.loginRequest()
+        let loginData: LoginData = LoginData(username: username, password: password)
+        print("username is \(loginData.username) and password is \(loginData.password)")
+        
+        interactor?.loginRequest(loginData: loginData)
     }
     
     func navigateToRegister() {
@@ -26,8 +27,7 @@ class LoginPresenter: LoginPresenterProtocol {
 }
 
 extension LoginPresenter: LoginInteractorOutputProtocol {
-    func loginResponse(response: Any) {
-        print("response \(response)")
+    func loginResponse(token: Any) {
         wireFrame?.redirectToHome(from: view!)
     }
 }

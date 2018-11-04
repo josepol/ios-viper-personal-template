@@ -14,17 +14,20 @@ protocol Endpoint {
 }
 
 struct API {
-    static let baseUrl = "http://localhost:8080"
+    static let baseUrl = "http://localhost:8080/api"
 }
 
 enum Endpoints {
-    enum Auth {
-        public var login: String {
-            return "\(API.baseUrl)/login)"
+    enum Auth: String {
+        case DEV
+        case PROD
+        
+        func login() -> String {
+            return "\(API.baseUrl)/authenticate"
         }
         
-        public var register: String {
-            return "\(API.baseUrl)/register)"
+        func register() -> String {
+            return "\(API.baseUrl)/register"
         }
     }
 }
