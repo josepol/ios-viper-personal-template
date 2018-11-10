@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C8817120F1E674BA2423B459 /* Pods_jeconomizer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */; };
+		FA9169862195EDEE00E18DCC /* HomeDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9169852195EDEE00E18DCC /* HomeDesignView.swift */; };
+		FA9169892195EF8300E18DCC /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9169872195EF8300E18DCC /* NavigationViewController.swift */; };
+		FA91698A2195EF8300E18DCC /* NavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9169882195EF8300E18DCC /* NavigationViewController.xib */; };
+		FA91698C2195F8C500E18DCC /* HomeXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA91698B2195F8C500E18DCC /* HomeXibView.xib */; };
+		FA91698E2195F91700E18DCC /* HomeXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91698D2195F91700E18DCC /* HomeXibView.swift */; };
 		FADA76152134736C0009AB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76142134736C0009AB37 /* AppDelegate.swift */; };
 		FADA76172134736C0009AB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76162134736C0009AB37 /* ViewController.swift */; };
 		FADA761A2134736C0009AB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA76182134736C0009AB37 /* Main.storyboard */; };
 		FADA761C2134736E0009AB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA761B2134736E0009AB37 /* Assets.xcassets */; };
 		FADA761F2134736E0009AB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA761D2134736E0009AB37 /* LaunchScreen.storyboard */; };
+		FADC8F46218EFEBB00AA28F7 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC8F45218EFEBB00AA28F7 /* LoginData.swift */; };
+		FADC8F48218F461400AA28F7 /* LoginResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC8F47218F461400AA28F7 /* LoginResponseData.swift */; };
 		FAFC01EC213478930022C5AA /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01EB213478930022C5AA /* LoginWireFrame.swift */; };
 		FAFC01EE213478AC0022C5AA /* LoginWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01ED213478AC0022C5AA /* LoginWireFrameProtocol.swift */; };
 		FAFC01F0213479D90022C5AA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01EF213479D90022C5AA /* LoginView.swift */; };
@@ -38,6 +45,11 @@
 		57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jeconomizer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		FA9169852195EDEE00E18DCC /* HomeDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDesignView.swift; sourceTree = "<group>"; };
+		FA9169872195EF8300E18DCC /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		FA9169882195EF8300E18DCC /* NavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationViewController.xib; sourceTree = "<group>"; };
+		FA91698B2195F8C500E18DCC /* HomeXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeXibView.xib; sourceTree = "<group>"; };
+		FA91698D2195F91700E18DCC /* HomeXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeXibView.swift; sourceTree = "<group>"; };
 		FADA76112134736C0009AB37 /* jeconomizer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jeconomizer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA76142134736C0009AB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADA76162134736C0009AB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +57,8 @@
 		FADA761B2134736E0009AB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADA761E2134736E0009AB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADA76202134736E0009AB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADC8F45218EFEBB00AA28F7 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		FADC8F47218F461400AA28F7 /* LoginResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseData.swift; sourceTree = "<group>"; };
 		FAFC01EB213478930022C5AA /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
 		FAFC01ED213478AC0022C5AA /* LoginWireFrameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrameProtocol.swift; sourceTree = "<group>"; };
 		FAFC01EF213479D90022C5AA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -130,9 +144,19 @@
 			path = "jeconomizer-swift";
 			sourceTree = "<group>";
 		};
+		FADC8F44218EFE9B00AA28F7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FADC8F45218EFEBB00AA28F7 /* LoginData.swift */,
+				FADC8F47218F461400AA28F7 /* LoginResponseData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		FAFC01E6213476910022C5AA /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				FADC8F44218EFE9B00AA28F7 /* Entities */,
 				FAFC01F721347AA40022C5AA /* Interactor */,
 				FAFC01EA213476B70022C5AA /* WireFrame */,
 				FAFC01E9213476B10022C5AA /* Views */,
@@ -234,6 +258,11 @@
 			isa = PBXGroup;
 			children = (
 				FAFC021621371A5D0022C5AA /* HomeView.swift */,
+				FA9169852195EDEE00E18DCC /* HomeDesignView.swift */,
+				FA9169872195EF8300E18DCC /* NavigationViewController.swift */,
+				FA9169882195EF8300E18DCC /* NavigationViewController.xib */,
+				FA91698B2195F8C500E18DCC /* HomeXibView.xib */,
+				FA91698D2195F91700E18DCC /* HomeXibView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +379,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA91698C2195F8C500E18DCC /* HomeXibView.xib in Resources */,
+				FA91698A2195EF8300E18DCC /* NavigationViewController.xib in Resources */,
 				FADA761F2134736E0009AB37 /* LaunchScreen.storyboard in Resources */,
 				FADA761C2134736E0009AB37 /* Assets.xcassets in Resources */,
 				FADA761A2134736C0009AB37 /* Main.storyboard in Resources */,
@@ -426,8 +457,11 @@
 				FAFC01FB21347ACE0022C5AA /* LoginInteractorProtocol.swift in Sources */,
 				FAFC021B21371B170022C5AA /* HomeInteractor.swift in Sources */,
 				FAFC0211213719BC0022C5AA /* HomePresenterProtocol.swift in Sources */,
+				FA91698E2195F91700E18DCC /* HomeXibView.swift in Sources */,
+				FA9169892195EF8300E18DCC /* NavigationViewController.swift in Sources */,
 				FAFC020F2137182B0022C5AA /* HomeWireFrameProtocol.swift in Sources */,
 				FAFC020D2137180E0022C5AA /* HomeWireFrame.swift in Sources */,
+				FA9169862195EDEE00E18DCC /* HomeDesignView.swift in Sources */,
 				FAFC0213213719DA0022C5AA /* HomeViewProtocol.swift in Sources */,
 				FAFC021721371A5D0022C5AA /* HomeView.swift in Sources */,
 				FAFC01EE213478AC0022C5AA /* LoginWireFrameProtocol.swift in Sources */,
@@ -441,9 +475,11 @@
 				FAFC021F21386C0B0022C5AA /* Endpoints.swift in Sources */,
 				FAFC01F0213479D90022C5AA /* LoginView.swift in Sources */,
 				FAFC0215213719F30022C5AA /* HomeInteractorProtocol.swift in Sources */,
+				FADC8F48218F461400AA28F7 /* LoginResponseData.swift in Sources */,
 				FAFC021921371ABE0022C5AA /* HomePresenter.swift in Sources */,
 				FAFC01F2213479EB0022C5AA /* LoginViewProtocol.swift in Sources */,
 				FADA76152134736C0009AB37 /* AppDelegate.swift in Sources */,
+				FADC8F46218EFEBB00AA28F7 /* LoginData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,17 +14,25 @@ class LoginInteractor: LoginInteractorInputProtocol {
     var presenter: LoginInteractorOutputProtocol?
     
     func loginRequest(loginData: LoginData) {
-        print(loginData)
         self.loginHttpRequest(loginData: loginData)
     }
     
     func loginHttpRequest(loginData: LoginData) {
         let parameters: Parameters = ["username": loginData.username, "password": loginData.password]
-        Alamofire.request(Endpoints.Auth.DEV.login(), method: .post, parameters: parameters, encoding: JSONEncoding.default)
+        Alamofire.request(Endpoints.Auth.URL.login(), method: .post, parameters: parameters, encoding: JSONEncoding.default)
         .responseObject { (response: DataResponse<LoginResponseData>) in
-            if let loginResponse: LoginResponseData = response.result.value {
-                self.saveToken(token: loginResponse.token!)
-                self.loginResponse(token: loginResponse.token!)
+            switch response.result {
+            case .success:
+                if let loginResponse: LoginResponseData = response.result.value {
+                    if loginResponse.token == nil {
+                        self.loginFailedResponse()
+                    } else {
+                        self.saveToken(token: loginResponse.token!)
+                        self.loginResponse(token: loginResponse.token!)
+                    }
+                }
+            case .failure(let error):
+                self.loginFailedResponse()
             }
                 
         }
@@ -40,5 +48,9 @@ class LoginInteractor: LoginInteractorInputProtocol {
 extension LoginInteractor: LoginInteractorOutputProtocol {
     func loginResponse(token: Any) {
         self.presenter?.loginResponse(token: token)
+    }
+    
+    func loginFailedResponse() {
+        self.presenter?.loginFailedResponse()
     }
 }

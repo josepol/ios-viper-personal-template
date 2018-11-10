@@ -15,4 +15,6 @@ protocol LoginViewProtocol: class {
     func usernameEditingChange(_ sender: Any)
     func textChanged()
     func navigateToRegister(_ sender: Any)
+    func showErrorMessage()
+    func passwordTextChanged(_ sender: Any)
 }

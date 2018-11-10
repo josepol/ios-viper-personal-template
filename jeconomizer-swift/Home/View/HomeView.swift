@@ -11,9 +11,17 @@ import UIKit
 class HomeView: UIViewController {
     var presenter: HomePresenterProtocol?
     
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    @IBOutlet var nav: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoad()
+        self.setupNav()
+    }
+    
+    private func setupNav() {
+    
     }
 }
 

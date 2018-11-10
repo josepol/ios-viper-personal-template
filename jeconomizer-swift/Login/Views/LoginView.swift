@@ -43,7 +43,15 @@ extension LoginView: LoginViewProtocol {
         self.textChanged()
     }
     
+    @IBAction func passwordTextChanged(_ sender: Any) {
+        self.textChanged()
+    }
+    
     func textChanged() {
         invalidCredentialsMessage.isHidden = true
+    }
+    
+    func showErrorMessage() {
+        invalidCredentialsMessage.isHidden = false
     }
 }

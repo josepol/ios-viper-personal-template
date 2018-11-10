@@ -16,8 +16,6 @@ class LoginPresenter: LoginPresenterProtocol {
     
     func login(username: String, password: String) {
         let loginData: LoginData = LoginData(username: username, password: password)
-        print("username is \(loginData.username) and password is \(loginData.password)")
-        
         interactor?.loginRequest(loginData: loginData)
     }
     
@@ -29,5 +27,9 @@ class LoginPresenter: LoginPresenterProtocol {
 extension LoginPresenter: LoginInteractorOutputProtocol {
     func loginResponse(token: Any) {
         wireFrame?.redirectToHome(from: view!)
+    }
+    
+    func loginFailedResponse() {
+        self.view?.showErrorMessage()
     }
 }

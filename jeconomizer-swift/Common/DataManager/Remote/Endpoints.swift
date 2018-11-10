@@ -19,8 +19,7 @@ struct API {
 
 enum Endpoints {
     enum Auth: String {
-        case DEV
-        case PROD
+        case URL
         
         func login() -> String {
             return "\(API.baseUrl)/authenticate"
