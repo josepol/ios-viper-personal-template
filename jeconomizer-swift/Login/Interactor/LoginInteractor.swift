@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import AlamofireObjectMapper
+import Foundation
 
 class LoginInteractor: LoginInteractorInputProtocol {
     var presenter: LoginInteractorOutputProtocol?
@@ -18,23 +19,28 @@ class LoginInteractor: LoginInteractorInputProtocol {
     }
     
     func loginHttpRequest(loginData: LoginData) {
-        let parameters: Parameters = ["username": loginData.username, "password": loginData.password]
-        Alamofire.request(Endpoints.Auth.URL.login(), method: .post, parameters: parameters, encoding: JSONEncoding.default)
-        .responseObject { (response: DataResponse<LoginResponseData>) in
-            switch response.result {
-            case .success:
-                if let loginResponse: LoginResponseData = response.result.value {
-                    if loginResponse.token == nil {
+        let MOCK = Bundle.main.object(forInfoDictionaryKey: ENV.MOCK) as! String
+        if MOCK == PLIST.YES {
+            self.saveToken(token: "asdqwea2313ssasdsd")
+            self.loginResponse(token: "asdqwea2313ssasdsd")
+        } else {
+            let parameters: Parameters = ["username": loginData.username, "password": loginData.password]
+            Alamofire.request(Endpoints.Auth.URL.login(), method: .post, parameters: parameters, encoding: JSONEncoding.default)
+                .responseObject { (response: DataResponse<LoginResponseData>) in
+                    switch response.result {
+                    case .success:
+                        if let loginResponse: LoginResponseData = response.result.value {
+                            if loginResponse.token == nil {
+                                self.loginFailedResponse()
+                            } else {
+                                self.saveToken(token: loginResponse.token!)
+                                self.loginResponse(token: loginResponse.token!)
+                            }
+                        }
+                    case .failure:
                         self.loginFailedResponse()
-                    } else {
-                        self.saveToken(token: loginResponse.token!)
-                        self.loginResponse(token: loginResponse.token!)
                     }
-                }
-            case .failure(let error):
-                self.loginFailedResponse()
             }
-                
         }
     }
     

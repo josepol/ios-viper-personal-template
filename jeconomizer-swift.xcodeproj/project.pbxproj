@@ -7,16 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA946327A671E155FB8F942 /* Pods_jeconomizer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */; };
 		C8817120F1E674BA2423B459 /* Pods_jeconomizer_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */; };
-		FA9169862195EDEE00E18DCC /* HomeDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9169852195EDEE00E18DCC /* HomeDesignView.swift */; };
-		FA9169892195EF8300E18DCC /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9169872195EF8300E18DCC /* NavigationViewController.swift */; };
-		FA91698A2195EF8300E18DCC /* NavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9169882195EF8300E18DCC /* NavigationViewController.xib */; };
-		FA91698C2195F8C500E18DCC /* HomeXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA91698B2195F8C500E18DCC /* HomeXibView.xib */; };
-		FA91698E2195F91700E18DCC /* HomeXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91698D2195F91700E18DCC /* HomeXibView.swift */; };
+		FA5BE5B221B89833001DF418 /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01FA21347ACE0022C5AA /* LoginInteractorProtocol.swift */; };
+		FA5BE5B321B89833001DF418 /* LoginViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99B1121B46B8B0062E41E /* LoginViewView.swift */; };
+		FA5BE5B421B89833001DF418 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021A21371B170022C5AA /* HomeInteractor.swift */; };
+		FA5BE5B521B89833001DF418 /* HomePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0210213719BC0022C5AA /* HomePresenterProtocol.swift */; };
+		FA5BE5B821B89833001DF418 /* HomeWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC020E2137182B0022C5AA /* HomeWireFrameProtocol.swift */; };
+		FA5BE5B921B89833001DF418 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC020C2137180E0022C5AA /* HomeWireFrame.swift */; };
+		FA5BE5BB21B89833001DF418 /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0212213719DA0022C5AA /* HomeViewProtocol.swift */; };
+		FA5BE5BC21B89833001DF418 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021621371A5D0022C5AA /* HomeView.swift */; };
+		FA5BE5BD21B89833001DF418 /* LoginWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01ED213478AC0022C5AA /* LoginWireFrameProtocol.swift */; };
+		FA5BE5BE21B89833001DF418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76162134736C0009AB37 /* ViewController.swift */; };
+		FA5BE5BF21B89833001DF418 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0222213872480022C5AA /* Protocols.swift */; };
+		FA5BE5C021B89833001DF418 /* LoginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F521347A530022C5AA /* LoginPresenterProtocol.swift */; };
+		FA5BE5C121B89833001DF418 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F321347A410022C5AA /* LoginPresenter.swift */; };
+		FA5BE5C221B89833001DF418 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99B0F21B464B70062E41E /* InputView.swift */; };
+		FA5BE5C321B89833001DF418 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01EB213478930022C5AA /* LoginWireFrame.swift */; };
+		FA5BE5C421B89833001DF418 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F821347ABE0022C5AA /* LoginInteractor.swift */; };
+		FA5BE5C521B89833001DF418 /* BottomFillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC02022135C9A70022C5AA /* BottomFillButton.swift */; };
+		FA5BE5C621B89833001DF418 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021E21386C0B0022C5AA /* Endpoints.swift */; };
+		FA5BE5C721B89833001DF418 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01EF213479D90022C5AA /* LoginView.swift */; };
+		FA5BE5C821B89833001DF418 /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC0214213719F30022C5AA /* HomeInteractorProtocol.swift */; };
+		FA5BE5C921B89833001DF418 /* LoginResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC8F47218F461400AA28F7 /* LoginResponseData.swift */; };
+		FA5BE5CA21B89833001DF418 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC021821371ABE0022C5AA /* HomePresenter.swift */; };
+		FA5BE5CB21B89833001DF418 /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC01F1213479EB0022C5AA /* LoginViewProtocol.swift */; };
+		FA5BE5CC21B89833001DF418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76142134736C0009AB37 /* AppDelegate.swift */; };
+		FA5BE5CD21B89833001DF418 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC8F45218EFEBB00AA28F7 /* LoginData.swift */; };
+		FA5BE5D321B89833001DF418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA761D2134736E0009AB37 /* LaunchScreen.storyboard */; };
+		FA5BE5D421B89833001DF418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA76182134736C0009AB37 /* Main.storyboard */; };
+		FA5BE5D521B89833001DF418 /* login.assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC99B0D21B3D0320062E41E /* login.assets.xcassets */; };
+		FA5BE5E021B89972001DF418 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5DF21B89972001DF418 /* Constants.swift */; };
+		FA5BE5E421B93A29001DF418 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5E321B93A29001DF418 /* NavigationBarView.swift */; };
+		FA5BE5E621B94CAC001DF418 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5E521B94CAC001DF418 /* Extensions.swift */; };
+		FA5BE5EA21BA6E59001DF418 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */; };
+		FA5BE5EE21BA6EFE001DF418 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5BE5ED21BA6EFE001DF418 /* TableViewCell.xib */; };
+		FAC99B0E21B3D0320062E41E /* login.assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC99B0D21B3D0320062E41E /* login.assets.xcassets */; };
+		FAC99B1021B464B70062E41E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99B0F21B464B70062E41E /* InputView.swift */; };
+		FAC99B1221B46B8B0062E41E /* LoginViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99B1121B46B8B0062E41E /* LoginViewView.swift */; };
 		FADA76152134736C0009AB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76142134736C0009AB37 /* AppDelegate.swift */; };
 		FADA76172134736C0009AB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA76162134736C0009AB37 /* ViewController.swift */; };
 		FADA761A2134736C0009AB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA76182134736C0009AB37 /* Main.storyboard */; };
-		FADA761C2134736E0009AB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA761B2134736E0009AB37 /* Assets.xcassets */; };
 		FADA761F2134736E0009AB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA761D2134736E0009AB37 /* LaunchScreen.storyboard */; };
 		FADC8F46218EFEBB00AA28F7 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC8F45218EFEBB00AA28F7 /* LoginData.swift */; };
 		FADC8F48218F461400AA28F7 /* LoginResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC8F47218F461400AA28F7 /* LoginResponseData.swift */; };
@@ -42,19 +73,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		6876F6ADF95949C17F64F444 /* Pods-jeconomizer-swift.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.test.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.test.xcconfig"; sourceTree = "<group>"; };
+		725AFCB4C5E3CA2F39283FD1 /* Pods-jeconomizer-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jeconomizer_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.release.xcconfig"; sourceTree = "<group>"; };
-		FA9169852195EDEE00E18DCC /* HomeDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDesignView.swift; sourceTree = "<group>"; };
-		FA9169872195EF8300E18DCC /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		FA9169882195EF8300E18DCC /* NavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationViewController.xib; sourceTree = "<group>"; };
-		FA91698B2195F8C500E18DCC /* HomeXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeXibView.xib; sourceTree = "<group>"; };
-		FA91698D2195F91700E18DCC /* HomeXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeXibView.swift; sourceTree = "<group>"; };
+		A1C41A610C7DF354DCD344F7 /* Pods-jeconomizer-swift.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.mock.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.mock.xcconfig"; sourceTree = "<group>"; };
+		CDCA65A9D98F4D1D2FC20747 /* Pods-jeconomizer-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jeconomizer-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift.release.xcconfig"; sourceTree = "<group>"; };
+		FA5BE5DD21B89833001DF418 /* jeconomizer-swift-mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jeconomizer-swift-mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5BE5DE21B89834001DF418 /* jeconomizer-swift copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "jeconomizer-swift copy-Info.plist"; path = "/Users/josepolsastre/Documents/cursos/jeconomizer-swift/jeconomizer-swift copy-Info.plist"; sourceTree = "<absolute>"; };
+		FA5BE5DF21B89972001DF418 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA5BE5E321B93A29001DF418 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		FA5BE5E521B94CAC001DF418 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FA5BE5ED21BA6EFE001DF418 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FAC99B0D21B3D0320062E41E /* login.assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = login.assets.xcassets; sourceTree = "<group>"; };
+		FAC99B0F21B464B70062E41E /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		FAC99B1121B46B8B0062E41E /* LoginViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewView.swift; sourceTree = "<group>"; };
 		FADA76112134736C0009AB37 /* jeconomizer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jeconomizer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA76142134736C0009AB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADA76162134736C0009AB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FADA76192134736C0009AB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FADA761B2134736E0009AB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADA761E2134736E0009AB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADA76202134736E0009AB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADC8F45218EFEBB00AA28F7 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
@@ -81,11 +118,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA5BE5CE21B89833001DF418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FADA760E2134736C0009AB37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C8817120F1E674BA2423B459 /* Pods_jeconomizer_swift.framework in Frameworks */,
+				7CA946327A671E155FB8F942 /* Pods_jeconomizer_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +140,10 @@
 		3C1DC12BFAD462CAD1D585C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */,
-				E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */,
+				725AFCB4C5E3CA2F39283FD1 /* Pods-jeconomizer-swift.debug.xcconfig */,
+				A1C41A610C7DF354DCD344F7 /* Pods-jeconomizer-swift.mock.xcconfig */,
+				6876F6ADF95949C17F64F444 /* Pods-jeconomizer-swift.test.xcconfig */,
+				CDCA65A9D98F4D1D2FC20747 /* Pods-jeconomizer-swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -109,6 +156,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA5BE5F121BA6FFA001DF418 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */,
+				FA5BE5ED21BA6EFE001DF418 /* TableViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
 		FADA76082134736C0009AB37 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +172,7 @@
 				FADA76122134736C0009AB37 /* Products */,
 				3C1DC12BFAD462CAD1D585C6 /* Pods */,
 				65370EB22C6A086BE76BFCA3 /* Frameworks */,
+				FA5BE5DE21B89834001DF418 /* jeconomizer-swift copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				FADA76112134736C0009AB37 /* jeconomizer-swift.app */,
+				FA5BE5DD21B89833001DF418 /* jeconomizer-swift-mock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +195,6 @@
 				FADA76142134736C0009AB37 /* AppDelegate.swift */,
 				FADA76162134736C0009AB37 /* ViewController.swift */,
 				FADA76182134736C0009AB37 /* Main.storyboard */,
-				FADA761B2134736E0009AB37 /* Assets.xcassets */,
 				FADA761D2134736E0009AB37 /* LaunchScreen.storyboard */,
 				FADA76202134736E0009AB37 /* Info.plist */,
 			);
@@ -162,6 +219,7 @@
 				FAFC01E9213476B10022C5AA /* Views */,
 				FAFC01E8213476A30022C5AA /* Protocols */,
 				FAFC01E72134769C0022C5AA /* Presenter */,
+				FAC99B0D21B3D0320062E41E /* login.assets.xcassets */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -189,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				FAFC01EF213479D90022C5AA /* LoginView.swift */,
+				FAC99B1121B46B8B0062E41E /* LoginViewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +273,8 @@
 			children = (
 				FAFC021D21386BE10022C5AA /* DataManager */,
 				FAFC02012135C9800022C5AA /* Components */,
+				FA5BE5DF21B89972001DF418 /* Constants.swift */,
+				FA5BE5E521B94CAC001DF418 /* Extensions.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -222,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				FAFC02022135C9A70022C5AA /* BottomFillButton.swift */,
+				FAC99B0F21B464B70062E41E /* InputView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -257,12 +319,9 @@
 		FAFC02092137176B0022C5AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA5BE5F121BA6FFA001DF418 /* HomeCell */,
 				FAFC021621371A5D0022C5AA /* HomeView.swift */,
-				FA9169852195EDEE00E18DCC /* HomeDesignView.swift */,
-				FA9169872195EF8300E18DCC /* NavigationViewController.swift */,
-				FA9169882195EF8300E18DCC /* NavigationViewController.xib */,
-				FA91698B2195F8C500E18DCC /* HomeXibView.xib */,
-				FA91698D2195F91700E18DCC /* HomeXibView.swift */,
+				FA5BE5E321B93A29001DF418 /* NavigationBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +380,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA5BE5AF21B89833001DF418 /* jeconomizer-swift-mock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5BE5D821B89833001DF418 /* Build configuration list for PBXNativeTarget "jeconomizer-swift-mock" */;
+			buildPhases = (
+				FA5BE5B121B89833001DF418 /* Sources */,
+				FA5BE5CE21B89833001DF418 /* Frameworks */,
+				FA5BE5D021B89833001DF418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jeconomizer-swift-mock";
+			productName = "jeconomizer-swift";
+			productReference = FA5BE5DD21B89833001DF418 /* jeconomizer-swift-mock.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FADA76102134736C0009AB37 /* jeconomizer-swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADA76232134736E0009AB37 /* Build configuration list for PBXNativeTarget "jeconomizer-swift" */;
@@ -330,7 +406,6 @@
 				FADA760E2134736C0009AB37 /* Frameworks */,
 				FADA760F2134736C0009AB37 /* Resources */,
 				A3D49EDE62DFB5009435097F /* [CP] Embed Pods Frameworks */,
-				1FDF42814C10585EA478985E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,41 +445,36 @@
 			projectRoot = "";
 			targets = (
 				FADA76102134736C0009AB37 /* jeconomizer-swift */,
+				FA5BE5AF21B89833001DF418 /* jeconomizer-swift-mock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA5BE5D021B89833001DF418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5BE5D321B89833001DF418 /* LaunchScreen.storyboard in Resources */,
+				FA5BE5D421B89833001DF418 /* Main.storyboard in Resources */,
+				FA5BE5D521B89833001DF418 /* login.assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FADA760F2134736C0009AB37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA91698C2195F8C500E18DCC /* HomeXibView.xib in Resources */,
-				FA91698A2195EF8300E18DCC /* NavigationViewController.xib in Resources */,
 				FADA761F2134736E0009AB37 /* LaunchScreen.storyboard in Resources */,
-				FADA761C2134736E0009AB37 /* Assets.xcassets in Resources */,
+				FA5BE5EE21BA6EFE001DF418 /* TableViewCell.xib in Resources */,
 				FADA761A2134736C0009AB37 /* Main.storyboard in Resources */,
+				FAC99B0E21B3D0320062E41E /* login.assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FDF42814C10585EA478985E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4A2DA12B7C1A41001A736FAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,7 +499,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
@@ -444,24 +514,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jeconomizer-swift/Pods-jeconomizer-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA5BE5B121B89833001DF418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5BE5B221B89833001DF418 /* LoginInteractorProtocol.swift in Sources */,
+				FA5BE5B321B89833001DF418 /* LoginViewView.swift in Sources */,
+				FA5BE5B421B89833001DF418 /* HomeInteractor.swift in Sources */,
+				FA5BE5B521B89833001DF418 /* HomePresenterProtocol.swift in Sources */,
+				FA5BE5B821B89833001DF418 /* HomeWireFrameProtocol.swift in Sources */,
+				FA5BE5B921B89833001DF418 /* HomeWireFrame.swift in Sources */,
+				FA5BE5BB21B89833001DF418 /* HomeViewProtocol.swift in Sources */,
+				FA5BE5BC21B89833001DF418 /* HomeView.swift in Sources */,
+				FA5BE5BD21B89833001DF418 /* LoginWireFrameProtocol.swift in Sources */,
+				FA5BE5BE21B89833001DF418 /* ViewController.swift in Sources */,
+				FA5BE5BF21B89833001DF418 /* Protocols.swift in Sources */,
+				FA5BE5C021B89833001DF418 /* LoginPresenterProtocol.swift in Sources */,
+				FA5BE5C121B89833001DF418 /* LoginPresenter.swift in Sources */,
+				FA5BE5C221B89833001DF418 /* InputView.swift in Sources */,
+				FA5BE5C321B89833001DF418 /* LoginWireFrame.swift in Sources */,
+				FA5BE5C421B89833001DF418 /* LoginInteractor.swift in Sources */,
+				FA5BE5C521B89833001DF418 /* BottomFillButton.swift in Sources */,
+				FA5BE5C621B89833001DF418 /* Endpoints.swift in Sources */,
+				FA5BE5C721B89833001DF418 /* LoginView.swift in Sources */,
+				FA5BE5C821B89833001DF418 /* HomeInteractorProtocol.swift in Sources */,
+				FA5BE5C921B89833001DF418 /* LoginResponseData.swift in Sources */,
+				FA5BE5CA21B89833001DF418 /* HomePresenter.swift in Sources */,
+				FA5BE5CB21B89833001DF418 /* LoginViewProtocol.swift in Sources */,
+				FA5BE5CC21B89833001DF418 /* AppDelegate.swift in Sources */,
+				FA5BE5CD21B89833001DF418 /* LoginData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FADA760D2134736C0009AB37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAFC01FB21347ACE0022C5AA /* LoginInteractorProtocol.swift in Sources */,
+				FAC99B1221B46B8B0062E41E /* LoginViewView.swift in Sources */,
 				FAFC021B21371B170022C5AA /* HomeInteractor.swift in Sources */,
 				FAFC0211213719BC0022C5AA /* HomePresenterProtocol.swift in Sources */,
-				FA91698E2195F91700E18DCC /* HomeXibView.swift in Sources */,
-				FA9169892195EF8300E18DCC /* NavigationViewController.swift in Sources */,
+				FA5BE5E421B93A29001DF418 /* NavigationBarView.swift in Sources */,
+				FA5BE5E021B89972001DF418 /* Constants.swift in Sources */,
 				FAFC020F2137182B0022C5AA /* HomeWireFrameProtocol.swift in Sources */,
+				FA5BE5EA21BA6E59001DF418 /* TableViewCell.swift in Sources */,
+				FA5BE5E621B94CAC001DF418 /* Extensions.swift in Sources */,
 				FAFC020D2137180E0022C5AA /* HomeWireFrame.swift in Sources */,
-				FA9169862195EDEE00E18DCC /* HomeDesignView.swift in Sources */,
 				FAFC0213213719DA0022C5AA /* HomeViewProtocol.swift in Sources */,
 				FAFC021721371A5D0022C5AA /* HomeView.swift in Sources */,
 				FAFC01EE213478AC0022C5AA /* LoginWireFrameProtocol.swift in Sources */,
@@ -469,6 +573,7 @@
 				FAFC0223213872480022C5AA /* Protocols.swift in Sources */,
 				FAFC01F621347A530022C5AA /* LoginPresenterProtocol.swift in Sources */,
 				FAFC01F421347A410022C5AA /* LoginPresenter.swift in Sources */,
+				FAC99B1021B464B70062E41E /* InputView.swift in Sources */,
 				FAFC01EC213478930022C5AA /* LoginWireFrame.swift in Sources */,
 				FAFC01F921347ABE0022C5AA /* LoginInteractor.swift in Sources */,
 				FAFC02032135C9A70022C5AA /* BottomFillButton.swift in Sources */,
@@ -505,6 +610,258 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA5BE5AB21B88F69001DF418 /* test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MOCK = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = test;
+		};
+		FA5BE5AC21B88F69001DF418 /* test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6876F6ADF95949C17F64F444 /* Pods-jeconomizer-swift.test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = YES;
+				INFOPLIST_FILE = "jeconomizer-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = test;
+		};
+		FA5BE5AD21B8956A001DF418 /* mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MOCK = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = mock;
+		};
+		FA5BE5AE21B8956A001DF418 /* mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C41A610C7DF354DCD344F7 /* Pods-jeconomizer-swift.mock.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = YES;
+				INFOPLIST_FILE = "jeconomizer-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = mock;
+		};
+		FA5BE5D921B89833001DF418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = YES;
+				INFOPLIST_FILE = "jeconomizer-swift copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5BE5DA21B89833001DF418 /* mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = YES;
+				INFOPLIST_FILE = "jeconomizer-swift copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = mock;
+		};
+		FA5BE5DB21B89833001DF418 /* test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = YES;
+				INFOPLIST_FILE = "jeconomizer-swift copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = test;
+		};
+		FA5BE5DC21B89833001DF418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = NO;
+				INFOPLIST_FILE = "jeconomizer-swift copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FADA76212134736E0009AB37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -557,7 +914,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MOCK = NO;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -611,7 +970,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MOCK = NO;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -621,15 +982,19 @@
 		};
 		FADA76242134736E0009AB37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D9BC955D7C9716C18237AA /* Pods-jeconomizer-swift.debug.xcconfig */;
+			baseConfigurationReference = 725AFCB4C5E3CA2F39283FD1 /* Pods-jeconomizer-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = YES;
 				INFOPLIST_FILE = "jeconomizer-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -639,15 +1004,19 @@
 		};
 		FADA76252134736E0009AB37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F56B7580E6B7EA5E5CECE9 /* Pods-jeconomizer-swift.release.xcconfig */;
+			baseConfigurationReference = CDCA65A9D98F4D1D2FC20747 /* Pods-jeconomizer-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32NKPRUAH;
+				ENV = NO;
 				INFOPLIST_FILE = "jeconomizer-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polsastre.jeconomizer-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -658,23 +1027,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA5BE5D821B89833001DF418 /* Build configuration list for PBXNativeTarget "jeconomizer-swift-mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5BE5D921B89833001DF418 /* Debug */,
+				FA5BE5DA21B89833001DF418 /* mock */,
+				FA5BE5DB21B89833001DF418 /* test */,
+				FA5BE5DC21B89833001DF418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = test;
+		};
 		FADA760C2134736C0009AB37 /* Build configuration list for PBXProject "jeconomizer-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FADA76212134736E0009AB37 /* Debug */,
+				FA5BE5AD21B8956A001DF418 /* mock */,
+				FA5BE5AB21B88F69001DF418 /* test */,
 				FADA76222134736E0009AB37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = test;
 		};
 		FADA76232134736E0009AB37 /* Build configuration list for PBXNativeTarget "jeconomizer-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FADA76242134736E0009AB37 /* Debug */,
+				FA5BE5AE21B8956A001DF418 /* mock */,
+				FA5BE5AC21B88F69001DF418 /* test */,
 				FADA76252134736E0009AB37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = test;
 		};
 /* End XCConfigurationList section */
 	};

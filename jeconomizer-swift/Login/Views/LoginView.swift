@@ -18,6 +18,7 @@ class LoginView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoad()
+        self.hideKeyboardWhenTappedAround() 
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -31,6 +32,7 @@ class LoginView: UIViewController {
 }
 
 extension LoginView: LoginViewProtocol {
+
     @IBAction func login(_ sender: Any) {
         if !username.hasText || !password.hasText {
             invalidCredentialsMessage.isHidden = false
