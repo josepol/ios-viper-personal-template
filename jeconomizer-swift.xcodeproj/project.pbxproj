@@ -41,7 +41,6 @@
 		FA5BE5E421B93A29001DF418 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5E321B93A29001DF418 /* NavigationBarView.swift */; };
 		FA5BE5E621B94CAC001DF418 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5E521B94CAC001DF418 /* Extensions.swift */; };
 		FA5BE5EA21BA6E59001DF418 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */; };
-		FA5BE5EE21BA6EFE001DF418 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5BE5ED21BA6EFE001DF418 /* TableViewCell.xib */; };
 		FAC99B0E21B3D0320062E41E /* login.assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC99B0D21B3D0320062E41E /* login.assets.xcassets */; };
 		FAC99B1021B464B70062E41E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99B0F21B464B70062E41E /* InputView.swift */; };
 		FAC99B1221B46B8B0062E41E /* LoginViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC99B1121B46B8B0062E41E /* LoginViewView.swift */; };
@@ -84,7 +83,6 @@
 		FA5BE5E321B93A29001DF418 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		FA5BE5E521B94CAC001DF418 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		FA5BE5ED21BA6EFE001DF418 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		FAC99B0D21B3D0320062E41E /* login.assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = login.assets.xcassets; sourceTree = "<group>"; };
 		FAC99B0F21B464B70062E41E /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		FAC99B1121B46B8B0062E41E /* LoginViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewView.swift; sourceTree = "<group>"; };
@@ -154,15 +152,6 @@
 				7C17E14E4D6004BFEA6281AD /* Pods_jeconomizer_swift.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FA5BE5F121BA6FFA001DF418 /* HomeCell */ = {
-			isa = PBXGroup;
-			children = (
-				FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */,
-				FA5BE5ED21BA6EFE001DF418 /* TableViewCell.xib */,
-			);
-			path = HomeCell;
 			sourceTree = "<group>";
 		};
 		FADA76082134736C0009AB37 = {
@@ -319,8 +308,8 @@
 		FAFC02092137176B0022C5AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FA5BE5F121BA6FFA001DF418 /* HomeCell */,
 				FAFC021621371A5D0022C5AA /* HomeView.swift */,
+				FA5BE5E921BA6E59001DF418 /* TableViewCell.swift */,
 				FA5BE5E321B93A29001DF418 /* NavigationBarView.swift */,
 			);
 			path = View;
@@ -466,7 +455,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADA761F2134736E0009AB37 /* LaunchScreen.storyboard in Resources */,
-				FA5BE5EE21BA6EFE001DF418 /* TableViewCell.xib in Resources */,
 				FADA761A2134736C0009AB37 /* Main.storyboard in Resources */,
 				FAC99B0E21B3D0320062E41E /* login.assets.xcassets in Resources */,
 			);

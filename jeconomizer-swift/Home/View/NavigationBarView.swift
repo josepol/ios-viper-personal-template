@@ -13,8 +13,8 @@ class NavigationBarView: UINavigationBar {
     override func draw(_ rect: CGRect) {
         self.backgroundColor = .clear
         self.frame.size.width = UIScreen.main.bounds.width
-        self.tintColor = UIColor.blue
-        self.barTintColor = UIColor.blue
+        self.tintColor = UIColor.white
+        self.barTintColor = UIColor.white
         self.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
     }
 
